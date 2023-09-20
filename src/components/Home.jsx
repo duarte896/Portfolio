@@ -21,7 +21,7 @@ function Home() {
                   data="https://cdn.svgator.com/images/2021/12/rocket-animation-interactive-tutorial.svg"
                   alt="rocket animation interactive"
                   img=""
-                  width="130%"
+                  width="100%"
                 ></object>
               </div>
             </div>
