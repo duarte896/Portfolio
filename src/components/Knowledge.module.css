@@ -25,6 +25,10 @@
   font-family: "Poppins", sans-serif;
   color: black;
 }
+.tec_container{
+  display: flex;
+  align-items: center;
+}
 .tec_images {
-  height: 150px;
+  height: 50px;
 }
