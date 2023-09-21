@@ -22,11 +22,127 @@ function Knowledge() {
         <h2 className={styles.section_title}>SKILLS & HABILITIES</h2>
         <p className={styles.main_title}>KNOWLEDGE</p>
       </div>
-      <div className="row mt-5 ">
+      <div className="row mt-5">
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={FrontEndLogo}
+              alt="frontend Logo"
+            />
+            <p className="fw-bold m-0">FrontEnd</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={BackEndLogo}
+              alt="backend Logo"
+            />
+            <p className="fw-bold m-0">BackEnd</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img className={styles.tec_images} src={HTMLLogo} alt="html Logo" />
+            <p className="fw-bold m-0">HTML</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={JavaScriptLogo}
+              alt="JavaScript Logo"
+            />
+            <p className="fw-bold m-0">JavaScript</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={TypeScriptLogo}
+              alt="TypeScript Logo"
+            />
+            <p className="fw-bold m-0">TypeScript</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={BootstrapLogo}
+              alt="bootstrap Logo"
+            />
+            <p className="fw-bold m-0">Bootstrap</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={ReactLogo}
+              alt="React Logo"
+            />
+            <p className="fw-bold m-0">React Js</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img className={styles.tec_images} src={NodeLogo} alt="node Logo" />
+            <p className="fw-bold m-0">Node Js</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={MongoDBLogo}
+              alt="mongodb Logo"
+            />
+            <p className="fw-bold m-0">Mongo DB</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={MySQLLogo}
+              alt="mysql Logo"
+            />
+            <p className="fw-bold m-0">MySQL</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-4 mb-4">
+          <div className={styles.box + " p-2"}>
+            <img
+              className={styles.tec_images}
+              src={ResponsiveLogo}
+              alt="responsive Logo"
+            />
+            <p className="fw-bold m-0">Web Design Responsive</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Knowledge;
+
+/*<div className="col-lg-3 text-center mb-5 border">
+          <img className={styles.tec_images} src={GitLogo} alt="git Logo" />
+          <h4>Git</h4>
+  </div>
+  
+  <div className="row mt-5 ">
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
-          }
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
+           className="bg-danger"}
         >
           <img
             className={styles.tec_images}
@@ -39,7 +155,8 @@ function Knowledge() {
 
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -51,7 +168,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img className={styles.tec_images} src={HTMLLogo} alt="html Logo" />
@@ -59,7 +177,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -71,7 +190,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -83,7 +203,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -95,7 +216,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img className={styles.tec_images} src={ReactLogo} alt="React Logo" />
@@ -103,7 +225,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img className={styles.tec_images} src={NodeLogo} alt="node Logo" />
@@ -111,7 +234,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -123,7 +247,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img className={styles.tec_images} src={MySQLLogo} alt="mysql Logo" />
@@ -131,7 +256,8 @@ function Knowledge() {
         </div>
         <div
           className={
-            styles.tec_container + " col-lg-3 text-center mb-5 me-1 border"
+            styles.tec_container +
+            " col-lg-3 col-md-4 text-center mb-5 me-1 border"
           }
         >
           <img
@@ -141,14 +267,4 @@ function Knowledge() {
           />
           <p className="fw-bold m-0">Web Design Responsive</p>
         </div>
-      </div>
-    </div>
-  );
-}
-
-export default Knowledge;
-
-/*<div className="col-lg-3 text-center mb-5 border">
-          <img className={styles.tec_images} src={GitLogo} alt="git Logo" />
-          <h4>Git</h4>
-  </div> */
+      </div>*/
