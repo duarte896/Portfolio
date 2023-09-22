@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import Knowledge from "./Knowledge";
 import Header from "./Navbar";
+import Proyects from "./Proyects";
 import "./styles.scss";
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
           </div>
         </div>
         <Knowledge />
+        <Proyects />
       </div>
     </div>
   );
