@@ -25,9 +25,16 @@
   font-family: "Poppins", sans-serif;
   color: black;
 }
+.skill_box{
+  background: #151515;
+  border-radius: 64px;
+  padding: 10px 40px;
+  text-align: center;
+}
 .box{
   background-color: #f5f5ff;
 }
 .tec_images {
   height: 50px;
+  margin-right: 1rem;
 }
