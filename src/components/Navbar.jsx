@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Form from "react-bootstrap/Form";
 import { useContext, useState } from "react";
 import { ThemeContext } from "../contexts/theme-context.ts";
-import "./styles.scss";
+import "../styles.scss";
 import styles from "./Navbar.module.css";
 import image from "../img/bootstrap-logo.png";
 

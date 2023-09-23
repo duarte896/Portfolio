@@ -1,4 +1,4 @@
-@import '../styles/theme-variables.scss';
+@import './styles/theme-variables.scss';
 .header {
   @include themify($themes) {
     background: themed('headerFooterBackground');

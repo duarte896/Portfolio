@@ -8,7 +8,7 @@ function Proyects() {
         <h2 className={styles.section_title}>GALLERY</h2>
         <p className={styles.main_title}>PROYECTS</p>
       </div>
-      <div className={styles.skill_box}>
+      <div className={styles.proyect_box}>
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
