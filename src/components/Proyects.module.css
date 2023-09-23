@@ -9,7 +9,7 @@
     color: #aaaaaa;
     font-family: "Poppins", sans-serif;
   }
-  .section_title::after {
+.section_title::after {
     content: "";
     width: 120px;
     height: 1px;
@@ -17,7 +17,7 @@
     background: black;
     margin: 4px 10px;
   }
-  .main_title {
+.main_title {
     margin: 0;
     font-size: 36px;
     font-weight: 700;
@@ -25,3 +25,7 @@
     font-family: "Poppins", sans-serif;
     color: black;
   }
+.image{
+    width: 300px;
+    height: 200px;
+}
