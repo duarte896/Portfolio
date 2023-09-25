@@ -1,4 +1,6 @@
+import image from "../img/pinkFloyd.png";
 import styles from "./Contact.module.css";
+
 function Contact() {
   return (
     <div className="container mt-5">
@@ -16,7 +18,16 @@ function Contact() {
               <h2>Whatsapp:</h2>
               <h2>GitHub:</h2>
             </div>
-            <div className="col-lg-6"></div>
+            <div className="col-lg-6">
+              <div className={styles.main_box}>
+                <div className={styles.display}>
+                  <img className={styles.image} src={image} alt="" />
+                </div>
+                <div className={styles.main_circle}>
+                  <div className={styles.second_circle}></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

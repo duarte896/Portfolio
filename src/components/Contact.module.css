@@ -25,3 +25,39 @@
     font-family: "Poppins", sans-serif;
     color: black;
 }
+.main_box{
+    background-color: #717378;
+    border-radius: 20px;
+    height: 450px;
+    width: 20rem;
+    margin-bottom: 5rem;
+}
+.display{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 15.625rem;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.main_circle{
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    background-color: rgb(61, 60, 60);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.second_circle{
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    background-color: #717378;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
