@@ -13,9 +13,9 @@ function Contact() {
           <div className="row">
             <div className="col-lg-6">
               <h2>Location:</h2>
-              <h2>Email:</h2>
+              <h2>Email: duarte.manuel10@gmail.com</h2>
               <h2>Linkedin:</h2>
-              <h2>Whatsapp:</h2>
+              <h2>Whatsapp: 092553210</h2>
               <h2>GitHub:</h2>
             </div>
             <div className="col-lg-6">
