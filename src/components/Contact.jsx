@@ -12,11 +12,34 @@ function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h2>Location:</h2>
-              <h2>Email: duarte.manuel10@gmail.com</h2>
-              <h2>Linkedin:</h2>
-              <h2>Whatsapp: 092553210</h2>
-              <h2>GitHub:</h2>
+              <div>
+                <h2>Location:</h2>
+                <p>Montevideo,Uruguay</p>
+              </div>
+              <div>
+                <h2>Email:</h2>
+                <p>duarte.manuel10@gmail.com</p>
+              </div>
+              <div>
+                <h2>Linkedin:</h2>
+                <a
+                  href="https://www.linkedin.com/in/manuelduartebotti/"
+                  target="_blank"
+                >
+                  Manuel Duarte
+                </a>
+              </div>
+              <div>
+                <h2>Whatsapp:</h2>
+                <p>+598 92 553 210</p>
+              </div>
+              <div>
+                <h2>GitHub:</h2>
+                <a href="https://github.com/duarte896" target="_blank">
+                  {" "}
+                  Proyectos
+                </a>
+              </div>
             </div>
             <div className={styles.ipod_box + " col-lg-6"}>
               <div className={styles.main_box}>
