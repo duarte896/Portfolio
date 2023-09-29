@@ -34,12 +34,12 @@
 }
 .display{
     position: relative;
-    top: 40px;
+    top: 25px;
     display: flex;
     justify-content: center;
 }
 .image{
-    width: 15.625rem;
+    width: 17.625rem;
     border-radius: 20px;
     border: 5px solid black;
 }
@@ -50,7 +50,7 @@
 }
 .main_circle{
     position: relative;
-    top: 60px;
+    top: 45px;
     margin: 0 auto;
     background-color: rgb(61, 60, 60);
     height: 200px;
