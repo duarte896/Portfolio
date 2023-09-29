@@ -43,6 +43,11 @@
     border-radius: 20px;
     border: 5px solid black;
 }
+.ipod_box{
+    display: flex;
+    justify-content: end;
+    padding: 0px;
+}
 .main_circle{
     position: relative;
     top: 60px;
@@ -60,4 +65,24 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+}
+.menu{
+    position: absolute;
+    top: 25px;
+    left: 80px;
+}
+.foward{
+    position: absolute;    
+    top:85px;
+    right: 25px;
+}
+.play{
+    position: absolute;
+    bottom: 10px;
+    left: 95px;
+}
+.back{
+    position: absolute;
+    top:85px;
+    left: 25px;
 }

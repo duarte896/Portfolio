@@ -18,12 +18,16 @@ function Contact() {
               <h2>Whatsapp: 092553210</h2>
               <h2>GitHub:</h2>
             </div>
-            <div className="col-lg-6">
+            <div className={styles.ipod_box + " col-lg-6"}>
               <div className={styles.main_box}>
                 <div className={styles.display}>
                   <img className={styles.image} src={image} alt="" />
                 </div>
                 <div className={styles.main_circle}>
+                  <p className={styles.menu}>Menu</p>
+                  <p className={styles.foward}>{">>|"}</p>
+                  <p className={styles.play}>▶︎</p>
+                  <p className={styles.back}>{"|<<"}</p>
                   <div className={styles.second_circle}></div>
                 </div>
               </div>
