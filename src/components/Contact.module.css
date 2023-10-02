@@ -70,19 +70,23 @@
     position: absolute;
     top: 25px;
     left: 80px;
+    color: white;
 }
 .foward{
     position: absolute;    
     top:85px;
     right: 25px;
+    color: white;
 }
 .play{
     position: absolute;
     bottom: 10px;
     left: 95px;
+    color: white;
 }
 .back{
     position: absolute;
     top:85px;
     left: 25px;
+    color: white;
 }

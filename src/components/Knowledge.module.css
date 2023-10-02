@@ -1,3 +1,6 @@
+.navbar{
+ background-color:  #f5f5ff !important;
+}
 .section_title {
   font-size: 14px;
   font-weight: 500;
@@ -25,14 +28,12 @@
   font-family: "Poppins", sans-serif;
   color: black;
 }
-.skill_box{
-  background: #151515;
-  border-radius: 64px;
-  padding: 10px 40px;
-  text-align: center;
-}
+
 .box{
   background-color: #f5f5ff;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .tec_images {
   height: 50px;

@@ -19,7 +19,7 @@ function Header() {
 
   const { theme, setTheme } = useContext(ThemeContext);
   return (
-    <Navbar expand="lg">
+    <Navbar className="bg-light" fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#home" className="fs-3 fw-bold ">
           Manuel Duarte - Full Stack Developer
@@ -35,7 +35,7 @@ function Header() {
                 label={mode}
               />
             </Form>
-            <Nav.Link href="#home" className="fw-bold">
+            <Nav.Link href={`home`} className="fw-bold">
               Home
             </Nav.Link>
             <Nav.Link href="#link" className="fw-bold">

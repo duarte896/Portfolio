@@ -10,7 +10,7 @@ function Proyects() {
       </div>
       <div className={styles.proyect_box}>
         <div className="container">
-          <div className="row">
+          <div className="row d-flex justify-content-center">
             <div className="col-lg-4">
               <img className={styles.image} src={kSurf} alt="" />
             </div>
@@ -19,6 +19,13 @@ function Proyects() {
             </div>
             <div className="col-lg-4">
               <img className={styles.image} src={kSurf} alt="" />
+            </div>
+            <div className="col-lg-4">
+              <div className={styles.flip_card}>
+                <div className={styles.flip_card_inner}>
+                  <div className={styles.flip_card_front}></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

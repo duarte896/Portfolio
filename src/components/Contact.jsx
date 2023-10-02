@@ -37,11 +37,14 @@ function Contact() {
                 <h2>GitHub:</h2>
                 <a href="https://github.com/duarte896" target="_blank">
                   {" "}
-                  Proyectos
+                  Code
                 </a>
               </div>
             </div>
             <div className={styles.ipod_box + " col-lg-6"}>
+              <div>
+                <p>My Music For Coding</p>
+              </div>
               <div className={styles.main_box}>
                 <div className={styles.display}>
                   <img className={styles.image} src={image} alt="" />

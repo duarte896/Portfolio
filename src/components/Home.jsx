@@ -2,10 +2,12 @@ import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <div className="container ">
+    <div className={styles.home + " container"}>
       <div className="row ">
         <div className="col d-flex flex-column justify-content-center">
-          <h1>Full Stack Developer</h1>
+          <h1>
+            <strong>Full Stack Developer</strong>
+          </h1>
           <h3>The best way to predict the future is to invent it</h3>
         </div>
         <div className="col d-flex justify-content-end">
