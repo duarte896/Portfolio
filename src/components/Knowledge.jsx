@@ -136,6 +136,24 @@ function Knowledge() {
           </div>
         </div>
       </div>
+      <div>
+        <h1>Desarrollo Front-End</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
+          distinctio sequi. Ratione deserunt amet voluptas. Eligendi beatae quos
+          exercitationem tenetur, est labore voluptatibus odit! Fugit dicta
+          commodi dignissimos nihil illo!
+        </p>
+      </div>
+      <div>
+        <h1>Desarrollo Back-End</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+          recusandae quas distinctio ab atque tempore ad, quo totam sed
+          explicabo modi aliquam molestiae quos ipsam qui omnis expedita at
+          eveniet!
+        </p>
+      </div>
     </div>
   );
 }
