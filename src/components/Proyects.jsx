@@ -1,7 +1,15 @@
 import kSurf from "../img/k-surf.png";
 import styles from "./Proyects.module.css";
+import { gsap } from "gsap";
 
 function Proyects() {
+  function prueba() {
+    gsap.to(".box", { rotation: 27, x: 100, duration: 5 });
+    gsap.to(".green", { rotation: 360, x: 100, duration: 5 });
+    gsap.from(".purple", { rotation: -360, x: -100, duration: 5 });
+    gsap.fromTo(".blue", { x: -100 }, { rotation: 360, x: 100, duration: 5 });
+  }
+
   return (
     <div className="container mt-5">
       <div>
@@ -26,6 +34,18 @@ function Proyects() {
                   <div className={styles.flip_card_front}></div>
                 </div>
               </div>
+            </div>
+            <div className={styles.bodyBox + " col-lg-4"}>
+              <div
+                className={styles.box + styles.green + " h-25 w-25 bg-black"}
+              ></div>
+              <div
+                className={styles.box + styles.purple + " h-25 w-25 bg-black"}
+              ></div>
+              <div
+                className={styles.box + styles.blue + " h-25 w-25 bg-black"}
+              ></div>
+              <button onClick={prueba()}>run</button>
             </div>
           </div>
         </div>

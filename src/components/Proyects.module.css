@@ -29,6 +29,14 @@
     width: 100%;
     height: 200px;
 }
+.bodyBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 /*.flip_card{
   background-color: transparent;
     border-radius: 7px;
