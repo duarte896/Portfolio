@@ -45,7 +45,7 @@ function Proyects() {
               <div
                 className={styles.box + styles.blue + " h-25 w-25 bg-black"}
               ></div>
-              <button onClick={prueba()}>run</button>
+              <button onClick={prueba()}>run ipod</button>
             </div>
           </div>
         </div>
