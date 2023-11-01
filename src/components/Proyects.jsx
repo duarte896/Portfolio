@@ -35,18 +35,6 @@ function Proyects() {
                 </div>
               </div>
             </div>
-            <div className={styles.bodyBox + " col-lg-4"}>
-              <div
-                className={styles.box + styles.green + " h-25 w-25 bg-black"}
-              ></div>
-              <div
-                className={styles.box + styles.purple + " h-25 w-25 bg-black"}
-              ></div>
-              <div
-                className={styles.box + styles.blue + " h-25 w-25 bg-black"}
-              ></div>
-              <button onClick={prueba()}>run ipod</button>
-            </div>
           </div>
         </div>
       </div>
