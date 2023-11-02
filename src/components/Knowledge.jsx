@@ -139,19 +139,46 @@ function Knowledge() {
       <div>
         <h1>Desarrollo Front-End</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-          distinctio sequi. Ratione deserunt amet voluptas. Eligendi beatae quos
-          exercitationem tenetur, est labore voluptatibus odit! Fugit dicta
-          commodi dignissimos nihil illo!
+          Me gusta la programación front-end orientada a la experiencia del
+          usuario por varias razones. En primer lugar, me apasiona la idea de
+          crear interfaces de usuario atractivas y funcionales que hagan que las
+          aplicaciones y sitios web sean agradables de usar. Es la primera
+          impresión que los usuarios tienen de un producto digital, y me encanta
+          la idea de ser parte de la creación de esa experiencia. Además, la
+          programación front-end me permite ser creativo y trabajar en el diseño
+          y la interacción de las aplicaciones. Puedo jugar con colores,
+          tipografía, animaciones y diseños para lograr una experiencia de
+          usuario excepcional. Esto me brinda la oportunidad de combinar mis
+          habilidades técnicas con mi pasión por el diseño. La programación
+          front-end también es un campo en constante evolución. Siempre hay
+          nuevas tecnologías y herramientas que aprender, lo que me mantiene
+          comprometido y en constante desarrollo profesional. Esto significa que
+          nunca me aburro y siempre estoy aprendiendo algo nuevo. Otra razón por
+          la que me gusta la programación front-end es la satisfacción de ver mi
+          trabajo en acción. Cuando veo a las personas interactuar con una
+          aplicación o un sitio web que he desarrollado, y disfrutan de la
+          experiencia, siento una gran gratificación. Saber que he contribuido a
+          hacer la vida de las personas más fácil o agradable es una de las
+          razones por las que me apasiona la programación front-end. En
+          resumen,me encanta la programación front-end orientada a la
+          experiencia del usuario porque me permite combinar creatividad y
+          habilidades técnicas para crear experiencias atractivas y funcionales.
+          Es un campo en constante evolución que me desafía a seguir aprendiendo
+          y me brinda la satisfacción de ver mi trabajo en acción.
         </p>
       </div>
       <div>
         <h1>Desarrollo Back-End</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-          recusandae quas distinctio ab atque tempore ad, quo totam sed
-          explicabo modi aliquam molestiae quos ipsam qui omnis expedita at
-          eveniet!
+          Me gusta la programación back-end porque me permite trabajar en la
+          parte invisible pero esencial de las aplicaciones y sitios web. Crear
+          sistemas robustos, gestionar bases de datos y optimizar el rendimiento
+          me desafía de una manera gratificante. También disfruto del control
+          que tengo sobre la lógica y el funcionamiento interno de las
+          aplicaciones, lo que me permite garantizar la seguridad y eficiencia
+          del sistema. En resumen, la programación back-end me atrae por su
+          enfoque en la estructura y el rendimiento detrás de escena de las
+          aplicaciones digitales.
         </p>
       </div>
     </div>
