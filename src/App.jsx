@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Knowledge from "./components/Knowledge";
 import Header from "./components/Navbar";
 import Proyects from "./components/Proyects";
+import About from "./components/About";
 import { ThemeContext } from "./contexts/theme-context.ts";
 import { useState } from "react";
 import "./styles.scss";
@@ -20,6 +21,7 @@ function App() {
             <Home />
             <Knowledge />
             <Proyects />
+            <About />
             <Contact />
           </div>
         </div>

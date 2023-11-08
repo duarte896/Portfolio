@@ -14,7 +14,7 @@ function Contact() {
             <div className="col-lg-6">
               <div>
                 <h2>Location:</h2>
-                <p>Montevideo,Uruguay</p>
+                <p>El Pinar ,Uruguay</p>
               </div>
               <div>
                 <h2>Email:</h2>
