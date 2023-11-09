@@ -50,10 +50,10 @@ function Contact() {
                   <img className={styles.image} src={image} alt="" />
                 </div>
                 <div className={styles.main_circle}>
-                  <p className={styles.menu}>Menu</p>
-                  <p className={styles.foward}>{">>|"}</p>
-                  <p className={styles.play}>▶︎</p>
-                  <p className={styles.back}>{"|<<"}</p>
+                  <button className={styles.menu}>Menu</button>
+                  <button className={styles.foward}>{">>|"}</button>
+                  <button className={styles.play}>▶︎</button>
+                  <button className={styles.back}>{"|<<"}</button>
                   <div className={styles.second_circle}></div>
                 </div>
               </div>

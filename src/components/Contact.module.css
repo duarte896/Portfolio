@@ -67,26 +67,30 @@
     border-radius: 50%;
 }
 .menu{
-    position: absolute;
-    top: 25px;
-    left: 80px;
-    color: white;
+    position: absolute !important;
+    top: 25px !important;
+    left: 80px !important;
+    color: white !important;
+    all: unset;
 }
 .foward{
-    position: absolute;    
-    top:85px;
-    right: 25px;
-    color: white;
+    position: absolute !important;    
+    top:85px !important;
+    right: 25px !important;
+    color: white !important;
+    all: unset;
 }
 .play{
-    position: absolute;
-    bottom: 10px;
-    left: 95px;
-    color: white;
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 95px !important;
+    color: white !important;
+    all: unset;
 }
 .back{
-    position: absolute;
-    top:85px;
-    left: 25px;
-    color: white;
+    position: absolute !important;
+    top:85px !important;
+    left: 25px !important;
+    color: white !important;
+    all: unset;
 }
